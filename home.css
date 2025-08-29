@@ -1,0 +1,1406 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 200px 300px;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.signin {
+    padding-left: 745px;
+    margin-right: 230px;
+}
+
+.hero {
+    background-image: url('./image/backimg.jpg');
+    padding: 1195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 803px;
+}
+
+h1 {
+    font-size: 160px;
+    font-family: cursive;
+    padding-left: 500px;
+}
+
+h3 {
+    font-size: 120px;
+    font-family: cursive;
+    padding-left: 600px;
+}
+
+p {
+    font-size: 100px;
+    padding-left: 300px;
+}
+
+.btn1 {
+    display: inline-block;
+    /*  margin: 40px 10px 0 0; */
+    /* padding: 10px 20px 0 20px; */
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: bold;
+    transition: background-color 0.8s;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 400px;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn1:active {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    display: inline-block;
+    /* margin: 40px 10px 0 0; */
+    /* padding: 10px 20px 0 20px; */
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: bold;
+    transition: background-color 0.8s;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 400px;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn2:active {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    margin: 0%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.ftext {
+    font-size: 110px;
+}
+
+.fcap {
+    font-size: 68px;
+    padding-right: 80px;
+}
+
+.social-icons {
+    padding-left: 487px;
+}
+
+.social-icons a {
+    color: #eee;
+    margin: 0 50px;
+    font-size: 88px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9900;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: 1000;
+    transition: 0.3s;
+    font-size: 60px;
+}
+
+.footer-links a:hover {
+    color: #ff9900;
+}
+
+.cprt {
+    font-size: 40px;
+    padding-left: 487px;
+}
+
+
+/* about-us section */
+.container {
+    display: flex;
+    padding-top: 498px;
+}
+
+.h1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 1290px;
+}
+
+.h2 {
+    font-size: 120px;
+    text-transform: capitalize;
+    padding-left: 934px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p {
+    font-size: 90px;
+    padding-right: 477px;
+    text-align: center;
+    padding-left: 384px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-img {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img1 {
+    margin-top: 400px;
+    width: 1078px;
+    height: 1389px;
+}
+
+.img2 {
+    margin-top: 825px;
+    width: 1078px;
+    height: 1389px;
+    margin-right: 220px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+
+/* menu section */
+#apply{
+    font-size: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    display: none;
+}
+.order:hover{
+    cursor: pointer;
+}
+.offers {
+    font-size: 80px;
+    padding-top: 500px;
+}
+
+.o1 {
+    padding-left: 2887px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.o2 {
+    /* padding-left: 2554px; */
+    text-transform: uppercase;
+}
+
+.offerbtn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 400px;
+    display: flex;
+}
+
+.card1 {
+    margin-left: 935px;
+    margin-right: 1000px;
+    margin-bottom: 200px;
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0px 7px 29px 0px;
+    text-decoration: none;
+}
+
+.card1:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+.card2 {
+    border: 1px solid black;
+    padding: 100px;
+    margin-bottom: 200px;
+    border-radius: 100px;
+    box-shadow: 0px 7px 29px 0px;
+}
+
+.card2:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+.cafe {
+    font-size: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-left: 500px;
+}
+
+.resto {
+    font-size: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-left: 400px;
+}
+
+.items {
+    display: flex;
+}
+
+.item1 {
+    margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item1 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item1 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item2 {
+    margin-left: 662px;
+    border: 1px solid white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item2 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item2 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item3 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item3 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item3 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item4 {
+    margin-left: 300px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item4 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item4 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+#item4 {
+    margin-left: 1259px;
+}
+
+.item5 {
+    margin-left: 662px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item5 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item5 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item6 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item6 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item6 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item7 {
+    margin-left: 300px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item7 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item7 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item8 {
+    margin-left: 662px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item8 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item8 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item9 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item9 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item9 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item10 {
+    margin-left: 334px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item10 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 80px;
+    margin-right: -300px;
+    margin-left: -300px;
+}
+
+.item10 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+#item10 {
+    margin-left: 2448px;
+}
+
+.item11 {
+    margin-left: 620px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item11 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item11 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item12 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item12 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item12 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item13 {
+    margin-left: 328px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item13 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item13 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item14 {
+    margin-left: 614px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item14 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 80px;
+}
+
+.item14 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item15 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item15 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item15 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item16 {
+    margin-left: 331px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item16 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item16 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item17 {
+    margin-left: 600px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item17 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item17 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item18 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item18 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item18 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item19 {
+    margin-left: 338px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item19 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 80px;
+}
+
+.item19 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+#item19 {
+    margin-left: 1337px;
+}
+
+#it19 {
+    margin-left: 2417px;
+}
+
+.item20 {
+    margin-left: 603px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item20 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 80px;
+}
+
+.item20 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item21 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item21 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.item21 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item22 {
+    margin-left: 2424px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item22 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 80px;
+}
+
+.item22 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+.item23 {
+    margin-left: 521px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item23 h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+#item22 {
+    margin-left: 1428px;
+}
+
+.item23 img {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+
+#it22 {
+    margin-left: 2428px;
+}
+
+#items {
+    margin-left: 1494px;
+}
+
+/* CAFE SECTION */
+.cafemenu {
+    padding-top: 600px;
+}
+.cross{
+    margin-top: 300px;
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    margin-left: 200pxm;
+}
+.cross:hover{
+    background-color: red;
+}
+.o3 {
+    margin-left: -515px;
+    text-transform: uppercase;
+}
+
+.cafemenu h1 {
+    padding-left: 3044px;
+}
+
+.section1 {
+    display: flex;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section3 {
+    display: flex;
+}
+
+.cafecard1 {
+    margin-left: 689px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+}
+
+.cafecard1 img {
+    height: 1000px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 30px;
+}
+
+.cafecard1:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+.cafecard2 {
+    margin-left: 300px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+}
+
+.cafecard2 img {
+    height: 1000px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 30px;
+}
+
+.cafecard2:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+.cafecard3 {
+    margin-left: 300px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+}
+
+.cafecard3 img {
+    height: 1000px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 30px;
+}
+
+.cafecard3:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+.cafecard4 {
+    margin-left: 1622px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+}
+
+.cafecard4 img {
+    height: 1000px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 30px;
+}
+
+.cafecard4:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+#cafecard4 {
+    margin-left: 700px;
+}
+
+.cafecard5 {
+    margin-left: 100px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 29px 0px;
+    border-radius: 100px;
+}
+
+.cafecard5 img {
+    height: 1000px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 30px;
+}
+
+#cafecard5 {
+    margin-left: 300px;
+}
+
+.cafecard5:hover {
+    box-shadow: 0px 7px 79px 0px;
+}
+
+/* offer page start */
+/* .offer123 {
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 400px;
+} */
+
+.offer1 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer1:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer2 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer2:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer3 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer3:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+/* .offer456 {
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 400px;
+} */
+
+.offer4 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer4:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer5 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer5:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer6 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer6:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+/* .offer789 {
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 400px;
+} */
+
+.offer7 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer7:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer8 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer8:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer9 {
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-top: 300px;
+    border: 8px solid black;
+    display: flex;
+    font-size: 100px;
+}
+
+.offer9:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+.offer10 {
+    font-size: 100px;
+    text-align: center;
+    margin-left: 913px;
+    margin-right: 1000px;
+    margin-bottom: 400px;
+    border: 8px solid black;
+    display: flex;
+    margin-top: 300px;
+}
+
+.offer10:hover {
+    box-shadow: 0px 7px 79px 0px;
+    border: 8px solid white;
+}
+
+.offerimg {
+    padding: 60px;
+}
+
+.offerdes {
+    margin-left: 600px;
+}
+
+/* contact us section */
+.contact {
+    border: 3px solid black;
+    background-image: url('./image/contactbackimg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactus {
+    margin-left: 1000px;
+}
+
+.contact-us {
+    font-size: 100px;
+    margin-top: 600px;
+    color: white;
+    margin-left: 1300px;
+}
+
+label {
+    font-size: 90px;
+    color: white;
+}
+
+input {
+    font-size: 70px;
+    border-radius: 80px;
+    height: 100px;
+    width: 1300px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+input[type="reset"] {
+    font-size: 80px;
+    padding-left: 0px;
+    width: 500px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+
+input[type="submit"] {
+    font-size: 80px;
+    padding-left: 0px;
+    width: 500px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+
+.contactsection2,
+.contactsection3,
+.contactsection4 {
+    margin-top: 200px;
+}
+
+.contactsection4 {
+    margin-bottom: 200px;
+}
+
+#address{
+    font-size: 80px;
+}
+/* sign in section */
+.sign-in {
+    border: 10px solid black;
+    margin-top: 700px;
+    margin-bottom: 300px;
+    margin-left: 2000px;
+    margin-right: 1000px;
+}
+
+.signinhead {
+    font-size: 150px;
+    margin-top: 100px;
+}
+
+.sign {
+    margin-left: 1000px;
+    border: 8px solid black;
+    margin-bottom: 300px;
+    margin-right: 2100px;
+    margin-left: -800px;
+    padding-left: 200px;
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+    margin-top: -1629px;
+}
+
+input[name="username"] {
+    font-size: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px solid white;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+input[type="password"] {
+    font-size: 80px;
+    margin-bottom: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px solid white;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+.signinbtn {
+    font-size: 100px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 100px;
+}
+
+.signpara {
+    font-size: 69px;
+    margin-left: -135px;
+    margin-bottom: 200px;
+}
+
+.signin-para {
+    margin-left: 800px;
+    font-size: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+}

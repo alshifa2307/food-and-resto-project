@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body style="background: #e5daed; background: linear-gradient(90deg, rgba(229, 218, 237, 1) 0%, rgba(242, 65, 192, 1) 49%, rgba(139, 206, 224, 1) 86%);">
+    <div class="navbar">
+        <div class="logo">
+            <img src="../project2/image/logo.jpg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./home.html">HOME</a></li>
+                <li><a href="./about us.html">ABOUT US</a></li>
+                <li><a href="./menu.html">MENU</a></li>
+                <li><a href="./offers.html">OFFERS</a></li>
+                <li><a href="./contactus.html">CONTACT US</a></li>
+                <li><a href="./signin.html" class="signin">SIGN IN</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <div class="sign-in">
+        <!-- <center><h5 class="signinhead">SIGN IN</h5></center> -->
+        <p class="signin-para">Please sign in to order a delicious food!</p>
+        <div class="sign">
+            <form action="" onsubmit="signUpSubmit()">
+            <input type="text" name="username" placeholder="username" id="username" required>
+            <br>
+            <input type="password" placeholder="password" required><br>
+            <button class="signinbtn" >SIGN UP</button><br>
+            </form>
+            <a href="" style="color: white; font-size: 60px; margin-left: 1000px; margin-bottom: 100px;" class="forgot">forgot password?</a>
+            <p class="signpara">don't have an account?<a href="./signin.html" style="color: white;" target="_self">Sign in</a></p>
+        </div>
+    </div>
+    <footer>
+        <h1 class="ftext">FOOD MANIA</h1>
+        <h3 class="fcap">cafe and resto</h3>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="cprt">&copy;2025 food mania cafe and resto. all rights reserved</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
